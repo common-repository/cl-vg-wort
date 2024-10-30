@@ -1,0 +1,106 @@
+.wp-list-table .column-identifier
+{
+    width: 6%;
+    vertical-align: middle;
+}
+
+.wp-list-table td.column-publicPrivateIdentifier
+{
+    font-family: monospace;
+}
+
+.settings_page_cl-vg-wort .wp-list-table
+{
+    display: block;
+}
+
+.wp-list-table .column-title
+{
+    width: 25%;
+}
+
+.wp-list-table .column-title label.title
+{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 90%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    cursor: text;
+    font-weight: bold;
+}
+
+.wp-list-table .column-reportText
+{
+    width: 30px;
+    vertical-align: middle;
+}
+
+.wp-list-table .column-reported,
+.wp-list-table .column-status
+{
+    width: 120px;
+    vertical-align: middle;
+}
+
+.wp-list-table .column-status .status-icon,
+.wp-list-table .column-status .status-year
+{
+    vertical-align: middle;
+    line-height: 1.5rem;
+}
+
+.pixel-overview
+{
+
+}
+
+.pixel-overview .pixel-overview-item
+{
+    margin-right: .75rem;
+    padding: .5rem;
+    background-color: #f6f7f7;
+}
+
+.pixel-overview .status-icon
+{
+    vertical-align: sub;
+}
+
+.wp-list-table .column-status .status-icon,
+.pixel-overview .status-icon
+{
+    font-size: 1.5rem;
+    margin-right: .25rem;
+    font-weight: normal !important;
+    cursor: help;
+}
+
+.wp-list-table .report-btn
+{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.wp-list-table tr:hover
+{
+    font-weight: bolder;
+}
+
+.cl-vg-wort-options-menu
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.cl-vg-wort-options-menu > *
+{
+    display: flex;
+}
+
+.cl-vg-wort-options-menu .report-text-form
+{
+    #justify-content: right;
+}
